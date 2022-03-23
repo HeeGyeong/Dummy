@@ -51,7 +51,7 @@ class MovieSearchViewModel(
         }
         if (!checkNetworkState()) return // 네트워크 연결 유무
         compositeDisposable.add(
-            getMoviesUseCase(currentQuery)
+            getMoviesUseCase.getMovies(currentQuery)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .doOnSubscribe { showProgress() }
@@ -98,7 +98,7 @@ class MovieSearchViewModel(
     fun requestPagingMovie(offset: Int) {
         if (!checkNetworkState()) return // 네트워크 연결 유무
         compositeDisposable.add(
-            getPagingMoviesUseCase(currentQuery, offset)
+            getPagingMoviesUseCase.getPaging(currentQuery, offset)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .doOnSubscribe { showProgress() }
@@ -129,7 +129,7 @@ class MovieSearchViewModel(
     private fun requestLocalMovies() {
         compositeDisposable.add(
             // getLocalMoviesUseCase.execute(currentQuery)
-            getLocalMoviesUseCase(currentQuery)
+            getLocalMoviesUseCase.getLocalMovies(currentQuery)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .doOnSubscribe { showProgress() }

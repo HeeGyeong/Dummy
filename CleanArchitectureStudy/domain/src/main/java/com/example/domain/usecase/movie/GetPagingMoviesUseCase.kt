@@ -11,7 +11,7 @@ import io.reactivex.Single
  * @param repository Movie data 를 컨트롤 하는 Repository
  */
 class GetPagingMoviesUseCase(private val repository: MovieRepository) {
-    operator fun invoke(
+    fun getPaging(
         query: String,
         offset: Int
     ): Single<List<Movie>> = repository.getPagingMovies(query, offset)

@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cleanarchitecturestudy" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="23"
+6-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->[androidx.fragment:fragment-ktx:1.2.5] C:\Users\forbiz\.gradle\caches\transforms-3\9828e0928b8fc39bd9fd5b40047df79f\transformed\fragment-ktx-1.2.5\AndroidManifest.xml:22:9-38
+8
+9    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+9-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:5:5-79
+9-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:5:22-76
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:6:5-67
+10-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:6:22-64
+11
+12    <application
+12-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:8:5-31:19
+13        android:name="com.example.cleanarchitecturestudy.di.KoinApplication"
+13-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:9:9-43
+14        android:allowBackup="true"
+14-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:10:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\forbiz\.gradle\caches\transforms-3\4f55f4db1de267e3866ec6d760cf20e9\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:11:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:12:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:13:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:14:9-35
+21        android:theme="@style/Theme.CleanArchitectureStudy" >
+21-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:15:9-60
+22
+23        <!--
+24        android12 (sdkVersion 31) 로 올라오면서,
+25        외부 응용 프로그램에서 실행될 수 있는지 여부를 확인하는 exported 명시적 선언이 필요함. 기존에는 이 값이 자동 적용되었던 부분이다.
+26        다른 애플리케이션에서 해당 액티비티를 시작할 수 있으면 true, 없으면 false 로 선언한다.
+27        앱을 최초 실행하는 Main(LAUNCHER) 의 경우 false 로 설정하게 되면 앱 아이콘 클릭 시 앱이 실행되지 않는다.
+28        -->
+29        <activity
+29-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:20:9-26:20
+30            android:name="com.example.cleanarchitecturestudy.view.MainActivity"
+30-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:20:19-52
+31            android:exported="true" >
+31-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:21:13-36
+32            <intent-filter>
+32-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:22:13-25:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:23:17-69
+33-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:24:17-77
+35-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:24:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:28:9-30:39
+39            android:name="com.example.cleanarchitecturestudy.view.search.MovieSearchActivity"
+39-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:28:19-66
+40            android:exported="false"
+40-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:30:13-37
+41            android:windowSoftInputMode="adjustNothing" />
+41-->C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:29:13-56
+42
+43        <service
+43-->[androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:25:9-28:40
+44            android:name="androidx.room.MultiInstanceInvalidationService"
+44-->[androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:26:13-74
+45            android:directBootAware="true"
+45-->[androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:27:13-43
+46            android:exported="false" />
+46-->[androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:28:13-37
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\52fb3983b9be7887a2068e93af28a267\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\52fb3983b9be7887a2068e93af28a267\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+50            android:authorities="com.example.cleanarchitecturestudy.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\52fb3983b9be7887a2068e93af28a267\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\52fb3983b9be7887a2068e93af28a267\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\52fb3983b9be7887a2068e93af28a267\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\52fb3983b9be7887a2068e93af28a267\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\52fb3983b9be7887a2068e93af28a267\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\forbiz\.gradle\caches\transforms-3\d9d261b5a55d4f5d71dc4b401fad8885\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\forbiz\.gradle\caches\transforms-3\d9d261b5a55d4f5d71dc4b401fad8885\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\forbiz\.gradle\caches\transforms-3\d9d261b5a55d4f5d71dc4b401fad8885\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>

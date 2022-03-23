@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.Flow
  * @param repository Movie data 를 컨트롤 하는 Repository
  */
 class GetMoviesUseCase(private val repository: MovieRepository) {
-    operator fun invoke(
+    fun getMovies(
         query: String
     ): Flowable<List<Movie>> = repository.getSearchMovies(query)
 

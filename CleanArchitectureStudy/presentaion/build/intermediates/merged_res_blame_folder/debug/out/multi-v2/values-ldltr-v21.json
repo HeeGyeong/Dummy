@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\forbiz\\Documents\\CleanArchitectureSample\\CleanArchitectureStudy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-2\\files-2.1\\a2fd2e05952f29f44cf774ac2005d81a\\appcompat-1.4.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-3\\bfdc84883a84c6e8be64f2f8ffdc9aef\\transformed\\appcompat-1.4.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

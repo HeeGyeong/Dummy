@@ -1,21 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\forbiz\\Documents\\CleanArchitectureSample\\CleanArchitectureStudy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-2\\files-2.1\\a2fd2e05952f29f44cf774ac2005d81a\\appcompat-1.4.0\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-2\\files-2.1\\402874e452fe78e807e9f5cc9c3612cb\\material-1.4.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-3\\8755b5897185e3dff715456a97c619fa\\transformed\\material-1.4.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -34,7 +23,18 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-2\\files-2.1\\c24949a4d0d17ce79ca10f533d267c96\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-3\\bfdc84883a84c6e8be64f2f8ffdc9aef\\transformed\\appcompat-1.4.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-3\\c4c2ac90b30abf473bc6b7c8a4e5f85c\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
