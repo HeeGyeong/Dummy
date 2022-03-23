@@ -77,7 +77,7 @@ class MovieSearchViewModel(
         }
         if (!checkNetworkState()) return
 
-        // Kotlin Flow는 Coroutine에서 동작.
+        // Kotlin Flow는 Coroutine에서 동작. 
         viewModelScope.launch {
             getMoviesUseCase.getFlowData(currentQuery)
                 .onStart { showProgress() }
