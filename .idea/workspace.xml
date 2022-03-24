@@ -32,7 +32,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ceeb47a-5376-4291-84d5-eaeeed17b878" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/buildAPK.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/buildAPK.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +88,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="CleanArchitectureStudy.presentaion" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\forbiz\.android\avd\Pixel_3a_API_30_x86.avd" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-02-28T02:15:03.959146800Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />

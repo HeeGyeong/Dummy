@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
+            "outputFile": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
                     "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-3\\8755b5897185e3dff715456a97c619fa\\transformed\\material-1.4.0\\res\\values-in\\values-in.xml",

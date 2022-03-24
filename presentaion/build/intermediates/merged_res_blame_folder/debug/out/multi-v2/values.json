@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-3\\4723ad1efb724e9ed952561b9c8025fb\\transformed\\savedstate-1.1.0\\res\\values\\values.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "65018",
                         "endColumns": "53",
                         "endOffsets": "65067"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,10,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "293,381,57,105,153,201,247,336",
+                        "endColumns": "41,45,46,46,46,44,44,41",
+                        "endOffsets": "330,422,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "495,502,584,585,586,597,598,601",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "23896,24464,29935,29982,30029,30773,30818,30984",
+                        "endColumns": "41,45,46,46,46,44,44,41",
+                        "endOffsets": "23933,24505,29977,30024,30071,30813,30858,31021"
                     }
                 },
                 {
@@ -95,23 +112,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,10,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "293,381,57,105,153,201,247,336",
-                        "endColumns": "41,45,46,46,46,44,44,41",
-                        "endOffsets": "330,422,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "495,502,584,585,586,597,598,601",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "23896,24464,29935,29982,30029,30773,30818,30984",
-                        "endColumns": "41,45,46,46,46,44,44,41",
-                        "endOffsets": "23933,24505,29977,30024,30071,30813,30858,31021"
-                    }
-                },
-                {
                     "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-3\\071a24db406e64e94fc360dfbe2b04e3\\transformed\\databinding-runtime-4.2.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -165,42 +165,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,9,19,11,10,7,5,20,16,18,17,13,14,15,4,6,12,3,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "17,442,1021,569,493,335,205,1063,858,971,913,690,744,808,144,269,629,80,390",
-                        "endColumns": "59,49,40,58,74,53,62,66,53,48,56,52,62,48,59,64,59,62,50",
-                        "endOffsets": "72,487,1057,623,563,384,263,1125,907,1015,965,738,802,852,199,329,684,138,436"
-                    },
-                    "to": {
-                        "startLines": "1196,1198,1207,1213,1214,1216,1217,1218,1219,1220,1221,1222,1243,1244,1280,1281,1287,1288,1291",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "69243,69453,70362,71113,71172,71306,71360,71423,71490,71544,71593,71650,74514,74577,81105,81165,82032,82092,82279",
-                        "endColumns": "59,49,40,58,74,53,62,66,53,48,56,52,62,48,59,64,59,62,50",
-                        "endOffsets": "69298,69498,70398,71167,71242,71355,71418,71485,71539,71588,71645,71698,74572,74621,81160,81225,82087,82150,82325"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "845"
-                    },
-                    "to": {
-                        "startLines": "3926",
-                        "startColumns": "4",
-                        "startOffsets": "257659",
-                        "endLines": "3938",
-                        "endColumns": "12",
-                        "endOffsets": "258388"
-                    }
-                },
-                {
                     "source": "C:\\Users\\forbiz\\.gradle\\caches\\transforms-3\\09e83ede1e3f507c15748f636bcabf53\\transformed\\databinding-adapters-4.2.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4",
@@ -234,6 +198,25 @@
                         "endLines": "7577",
                         "endColumns": "24",
                         "endOffsets": "465494"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "845"
+                    },
+                    "to": {
+                        "startLines": "3926",
+                        "startColumns": "4",
+                        "startOffsets": "257659",
+                        "endLines": "3938",
+                        "endColumns": "12",
+                        "endOffsets": "258388"
                     }
                 },
                 {
@@ -272,6 +255,23 @@
                         "endLines": "6372",
                         "endColumns": "24",
                         "endOffsets": "405099"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,9,19,11,10,7,5,20,16,18,17,13,14,15,4,6,12,3,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,442,1021,569,493,335,205,1063,858,971,913,690,744,808,144,269,629,80,390",
+                        "endColumns": "59,49,40,58,74,53,62,66,53,48,56,52,62,48,59,64,59,62,50",
+                        "endOffsets": "72,487,1057,623,563,384,263,1125,907,1015,965,738,802,852,199,329,684,138,436"
+                    },
+                    "to": {
+                        "startLines": "1196,1198,1207,1213,1214,1216,1217,1218,1219,1220,1221,1222,1243,1244,1280,1281,1287,1288,1291",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "69243,69453,70362,71113,71172,71306,71360,71423,71490,71544,71593,71650,74514,74577,81105,81165,82032,82092,82279",
+                        "endColumns": "59,49,40,58,74,53,62,66,53,48,56,52,62,48,59,64,59,62,50",
+                        "endOffsets": "69298,69498,70398,71167,71242,71355,71418,71485,71539,71588,71645,71698,74572,74621,81160,81225,82087,82150,82325"
                     }
                 },
                 {

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_movie_search.xml",
-        "source": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\src\\main\\res\\layout\\activity_movie_search.xml"
+        "merged": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_movie_search.xml",
+        "source": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\src\\main\\res\\layout\\activity_movie_search.xml"
     },
     {
-        "merged": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_movie.xml",
-        "source": "C:\\Users\\forbiz\\Documents\\Dummy\\CleanArchitectureStudy\\presentaion\\src\\main\\res\\layout\\item_movie.xml"
+        "merged": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_movie.xml",
+        "source": "C:\\Users\\forbiz\\Documents\\Dummy\\presentaion\\src\\main\\res\\layout\\item_movie.xml"
     }
 ]

@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] C:\Users\forbiz\.gradle\caches\transforms-3\09e83ede1e3f507c15748f636bcabf53\transformed\databinding-adapters-4.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:4.2.1] C:\Users\forbiz\.gradle\caches\transforms-3\071a24db406e64e94fc360dfbe2b04e3\transformed\databinding-runtime-4.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [:data] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:data] C:\Users\forbiz\Documents\Dummy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [org.koin:koin-androidx-viewmodel:2.2.2] C:\Users\forbiz\.gradle\caches\transforms-3\d593cacac8d0f56f5e8547be47df1126\transformed\koin-androidx-viewmodel-2.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [org.koin:koin-androidx-scope:2.2.2] C:\Users\forbiz\.gradle\caches\transforms-3\5df13dc283446ac7f4a1859482c80491\transformed\koin-androidx-scope-2.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.5] C:\Users\forbiz\.gradle\caches\transforms-3\9828e0928b8fc39bd9fd5b40047df79f\transformed\fragment-ktx-1.2.5\AndroidManifest.xml:17:1-24:12
@@ -70,27 +70,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\forbiz\.gradle\c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\7815494d8ce560be3c95e5cad351b544\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\ca6a98f037deb73d91b46f9cbd8e2187\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\forbiz\.gradle\caches\transforms-3\8d2f57fafd2204b41fdf3fcf5676d78e\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:5:5-79
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:6:5-67
-MERGED from [:data] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
-MERGED from [:data] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
-MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
-MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:6:5-67
+MERGED from [:data] C:\Users\forbiz\Documents\Dummy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:data] C:\Users\forbiz\Documents\Dummy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:8:5-31:19
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:8:5-31:19
 MERGED from [org.koin:koin-androidx-viewmodel:2.2.2] C:\Users\forbiz\.gradle\caches\transforms-3\d593cacac8d0f56f5e8547be47df1126\transformed\koin-androidx-viewmodel-2.2.2\AndroidManifest.xml:7:5-20
 MERGED from [org.koin:koin-androidx-viewmodel:2.2.2] C:\Users\forbiz\.gradle\caches\transforms-3\d593cacac8d0f56f5e8547be47df1126\transformed\koin-androidx-viewmodel-2.2.2\AndroidManifest.xml:7:5-20
 MERGED from [org.koin:koin-androidx-scope:2.2.2] C:\Users\forbiz\.gradle\caches\transforms-3\5df13dc283446ac7f4a1859482c80491\transformed\koin-androidx-scope-2.2.2\AndroidManifest.xml:7:5-20
@@ -122,54 +122,54 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\forbiz\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\forbiz\.gradle\caches\transforms-3\4f55f4db1de267e3866ec6d760cf20e9\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:15:9-60
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:15:9-60
 	android:name
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:9:9-43
 activity#com.example.cleanarchitecturestudy.view.MainActivity
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:20:9-26:20
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:20:9-26:20
 	android:exported
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:20:19-52
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:20:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:22:13-25:29
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:24:27-74
 activity#com.example.cleanarchitecturestudy.view.search.MovieSearchActivity
-ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:28:9-30:39
+ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:28:9-30:39
 	android:windowSoftInputMode
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:29:13-56
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:29:13-56
 	android:exported
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:30:13-37
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml:28:19-66
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml:28:19-66
 uses-sdk
-INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
+INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] C:\Users\forbiz\.gradle\caches\transforms-3\09e83ede1e3f507c15748f636bcabf53\transformed\databinding-adapters-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] C:\Users\forbiz\.gradle\caches\transforms-3\09e83ede1e3f507c15748f636bcabf53\transformed\databinding-adapters-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.2.1] C:\Users\forbiz\.gradle\caches\transforms-3\071a24db406e64e94fc360dfbe2b04e3\transformed\databinding-runtime-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.2.1] C:\Users\forbiz\.gradle\caches\transforms-3\071a24db406e64e94fc360dfbe2b04e3\transformed\databinding-runtime-4.2.1\AndroidManifest.xml:20:5-44
-MERGED from [:data] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:data] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:data] C:\Users\forbiz\Documents\Dummy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:data] C:\Users\forbiz\Documents\Dummy\data\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:domain] C:\Users\forbiz\Documents\Dummy\domain\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [org.koin:koin-androidx-viewmodel:2.2.2] C:\Users\forbiz\.gradle\caches\transforms-3\d593cacac8d0f56f5e8547be47df1126\transformed\koin-androidx-viewmodel-2.2.2\AndroidManifest.xml:5:5-44
 MERGED from [org.koin:koin-androidx-viewmodel:2.2.2] C:\Users\forbiz\.gradle\caches\transforms-3\d593cacac8d0f56f5e8547be47df1126\transformed\koin-androidx-viewmodel-2.2.2\AndroidManifest.xml:5:5-44
 MERGED from [org.koin:koin-androidx-scope:2.2.2] C:\Users\forbiz\.gradle\caches\transforms-3\5df13dc283446ac7f4a1859482c80491\transformed\koin-androidx-scope-2.2.2\AndroidManifest.xml:5:5-44
@@ -298,13 +298,13 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\forbiz\.gradle\caches\transfor
 MERGED from [androidx.print:print:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\ca6a98f037deb73d91b46f9cbd8e2187\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\forbiz\.gradle\caches\transforms-3\8d2f57fafd2204b41fdf3fcf5676d78e\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\forbiz\.gradle\caches\transforms-3\8d2f57fafd2204b41fdf3fcf5676d78e\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
+INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml
 	android:targetSdkVersion
 		ADDED from [androidx.fragment:fragment-ktx:1.2.5] C:\Users\forbiz\.gradle\caches\transforms-3\9828e0928b8fc39bd9fd5b40047df79f\transformed\fragment-ktx-1.2.5\AndroidManifest.xml:22:9-38
 	android:minSdkVersion
-		INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
-		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml
+		ADDED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\forbiz\Documents\Dummy\presentaion\src\main\AndroidManifest.xml
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
 	android:exported
