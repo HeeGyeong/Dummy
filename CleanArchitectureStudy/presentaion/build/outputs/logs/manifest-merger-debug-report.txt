@@ -20,7 +20,7 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\forbiz\.gradle
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\forbiz\.gradle\caches\transforms-3\398ac5c973a29353584aa8f4b001ffee\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\forbiz\.gradle\caches\transforms-3\bfdc84883a84c6e8be64f2f8ffdc9aef\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-rxjava2:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5c9bfe7f11f3b30ac92866a9c54e4eb9\transformed\room-rxjava2-2.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:17:1-31:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\forbiz\.gradle\caches\transforms-3\7c6500b0592307c5aa7d29df310834b7\transformed\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\forbiz\.gradle\caches\transforms-3\cd00c000ceae78dcafa44f4308e176a6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\forbiz\.gradle\caches\transforms-3\3ec346ea480137c8662afd858f5fdd34\transformed\glide-4.11.0\AndroidManifest.xml:2:1-12:12
@@ -99,8 +99,8 @@ MERGED from [com.google.android.material:material:1.4.0] C:\Users\forbiz\.gradle
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\forbiz\.gradle\caches\transforms-3\8755b5897185e3dff715456a97c619fa\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\forbiz\.gradle\caches\transforms-3\398ac5c973a29353584aa8f4b001ffee\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\forbiz\.gradle\caches\transforms-3\398ac5c973a29353584aa8f4b001ffee\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
-MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:24:5-29:19
-MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\forbiz\.gradle\caches\transforms-3\cd00c000ceae78dcafa44f4308e176a6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\forbiz\.gradle\caches\transforms-3\cd00c000ceae78dcafa44f4308e176a6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\forbiz\.gradle\caches\transforms-3\3ec346ea480137c8662afd858f5fdd34\transformed\glide-4.11.0\AndroidManifest.xml:10:5-20
@@ -198,8 +198,8 @@ MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\forbiz\.gradle\caches\
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\forbiz\.gradle\caches\transforms-3\bfdc84883a84c6e8be64f2f8ffdc9aef\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-rxjava2:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5c9bfe7f11f3b30ac92866a9c54e4eb9\transformed\room-rxjava2-2.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-rxjava2:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5c9bfe7f11f3b30ac92866a9c54e4eb9\transformed\room-rxjava2-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\forbiz\.gradle\caches\transforms-3\7c6500b0592307c5aa7d29df310834b7\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\forbiz\.gradle\caches\transforms-3\7c6500b0592307c5aa7d29df310834b7\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\forbiz\.gradle\caches\transforms-3\cd00c000ceae78dcafa44f4308e176a6\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
@@ -306,13 +306,13 @@ INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion
 		ADDED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\forbiz\Documents\Dummy\CleanArchitectureStudy\presentaion\src\main\AndroidManifest.xml
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:25:9-28:40
+ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:28:13-37
+		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
 	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:27:13-43
+		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
 	android:name
-		ADDED from [androidx.room:room-runtime:2.4.1] C:\Users\forbiz\.gradle\caches\transforms-3\5f05c204ebd3ed92b7039790f3ed1a15\transformed\room-runtime-2.4.1\AndroidManifest.xml:26:13-74
+		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\forbiz\.gradle\caches\transforms-3\75a6587bb4c576dd159fb2d8673b8907\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\forbiz\.gradle\caches\transforms-3\52fb3983b9be7887a2068e93af28a267\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\forbiz\.gradle\caches\transforms-3\d9d261b5a55d4f5d71dc4b401fad8885\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
