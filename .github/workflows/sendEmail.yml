@@ -36,7 +36,6 @@ jobs:
         from: HeeGyeong@github # <user@example.com>
         secure: true
         body: Build job of ${{github.repository}} completed successfully!
-        html_body: file://README.html
         ignore_cert: true
         convert_markdown: true
         priority: high
