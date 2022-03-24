@@ -32,7 +32,7 @@ jobs:
         server_address: smtp.gmail.com
         server_port: 465
         subject: Github Actions Custom job result
-        to: fhskf94kr@naver.com
+        to: heegyeong.you@gmail.com
         from: HeeGyeong@github # <user@example.com>
         secure: true
         body: Build job of ${{github.repository}} completed successfully!
