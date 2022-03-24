@@ -21,13 +21,13 @@ jobs:
         cache: gradle
 
     - name: Grant execute permission for gradlew
-      run: chmod +x ./CleanArchitectureStudy/gradlew
+      run: chmod +x ./gradlew
     - name: Build with Gradle init
-      run: ./CleanArchitectureStudy/gradlew init
+      run: ./gradlew init
     - name: Build with Gradle build
-      run: ./CleanArchitectureStudy/gradlew build
+      run: ./gradlew build
     - name: Build debug APK
-      run: ./CleanArchitectureStudy/gradlew clean assembleDebug --stacktrace
+      run: ./gradlew clean assembleDebug --stacktrace
     - name: Upload APK
       uses: actions/upload-artifact@v1
       with:
