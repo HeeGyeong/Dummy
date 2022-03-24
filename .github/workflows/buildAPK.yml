@@ -27,7 +27,7 @@ jobs:
     - name: Build with Gradle build
       run: ./CleanArchitectureStudy/gradlew build
     - name: Build debug APK
-      run: ./CleanArchitectureStudy/gradlew assembleDebug --stacktrace
+      run: ./CleanArchitectureStudy/gradlew clean assembleDebug --stacktrace
     - name: Upload APK
       uses: actions/upload-artifact@v1
       with:
