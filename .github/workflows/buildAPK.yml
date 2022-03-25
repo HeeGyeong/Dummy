@@ -35,3 +35,12 @@ jobs:
       with:
         name: apk-artifact
         path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
+
+    - name: Slack - Upload APK
+      uses: adrey/slack-file-upload-action@1.0.5
+      with:
+        token: ${{ secrets.SLACK_TOKEN }}
+        initial_comment: 'APK File Upload'
+        filetype: 'xml'
+        filename: 'AndroidManifest.xml'
+        path: ./presentaion/src/main/AndroidManifrest.xml
