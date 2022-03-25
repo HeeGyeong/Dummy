@@ -43,4 +43,16 @@ jobs:
         initial_comment: 'APK File Upload'
         file_type: 'apk'
         file_name: 'presentaion-debug.apk'
-        file_path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
+        file_path: './presentaion/build/outputs/apk/debug/presentaion-debug.apk'
+
+    - name: Create message.text
+      run: 'echo ${{ github.event.inputs.message }} > message.txt'
+    - name: Slack - Upload APK
+      uses: MeilCli/slack-upload-file@v1
+      with:
+        slack_token: ${{ secrets.SLACK_TOKEN }}
+        initial_comment: 'message.text upload test'
+        title: Custom Title
+        file_type: 'text'
+        file_name: 'message.text'
+        file_path: 'message.text'
