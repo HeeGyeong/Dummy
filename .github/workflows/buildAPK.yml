@@ -41,6 +41,6 @@ jobs:
       with:
         token: ${{ secrets.SLACK_TOKEN }}
         initial_comment: 'APK File Upload'
-        filetype: 'xml'
-        filename: 'AndroidManifest.xml'
-        path: ./presentaion/src/main/AndroidManifrest.xml
+        filetype: 'apk'
+        filename: 'presentaion-debug.apk'
+        path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
