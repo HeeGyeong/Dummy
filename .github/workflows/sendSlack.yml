@@ -31,7 +31,7 @@ jobs:
       if: always()
 
     - name: Slack - Upload AOK
-       use: adrey/slack-file-upload-action@master
+       uses: adrey/slack-file-upload-action@master
        with:
         token: ${{ secrets.SLACK_TOKEN }}
         channel: random
