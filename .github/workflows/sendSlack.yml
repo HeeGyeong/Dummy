@@ -36,10 +36,9 @@ jobs:
     - name: Slack - Upload APK
       uses: MeilCli/slack-upload-file@v1
       with:
-        token: ${{ secrets.SLACK_TOKEN }}
-        channel: random
-        initial_comment: APK File Upload
+        slack_token: ${{ secrets.SLACK_TOKEN }}
+        initial_comment: 'message.text upload test'
         title: Custom Title
-        filetype: 'text'
-        filename: 'message.text'
-        path: 'message.text'
+        file_type: 'text'
+        file_name: 'message.text'
+        file_path: 'message.text'
