@@ -43,7 +43,7 @@ jobs:
         
   slack-msg:
     name: Send Build Msg to Slack
-    needs: build
+    needs: apk
     runs-on: ubuntu-latest
     steps:
     - name: Slack - Send Success Msg
