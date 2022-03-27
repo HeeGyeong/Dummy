@@ -29,6 +29,15 @@ jobs:
       run: ./gradlew build
     - name: Build debug APK
       run: ./gradlew clean assembleDebug --stacktrace
+    - name: Slack - Upload APK
+      uses: MeilCli/slack-upload-file@v1.0.0
+      with:
+        slack_token: ${{ secrets.SLACK_TOKEN }}
+        channels: ${{ secrets.SLACK_CHANNEL }}
+        initial_comment: 'APK File Upload'
+        file_type: 'apk'
+        file_name: 'presentaion-debug.apk'
+        file_path: './presentaion/build/outputs/apk/debug/presentaion-debug.apk'
         
   slack-msg:
     name: Send Build Msg to Slack
@@ -55,24 +64,9 @@ jobs:
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-  slack-upload:
-    name: Upload Debug APK to Slack
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Slack - Upload APK
-      uses: MeilCli/slack-upload-file@v1.0.0
-      with:
-        slack_token: ${{ secrets.SLACK_TOKEN }}
-        channels: ${{ secrets.SLACK_CHANNEL }}
-        initial_comment: 'APK File Upload'
-        file_type: 'apk'
-        file_name: 'presentaion-debug.apk'
-        file_path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
-        
   github:
     name: Upload Github Artiface
-    needs: slack-upload
+    needs: slack-msg
     runs-on: ubuntu-latest
     steps:
       - name: Upload APK
