@@ -45,7 +45,14 @@ jobs:
       with:
         name: apk-artifact
         path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
-        
+
+  test_call:
+    name: Test Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Call
+        run: echo 'Test Call'
+
   slack-msg:
     name: Send Build Msg to Slack
     needs: build
@@ -70,3 +77,11 @@ jobs:
         author_name: Heeg
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  fin_call:
+    name: Final call Job
+    needs: [test_call, slack-msg]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Final Call
+        run: echo 'Final Call'
