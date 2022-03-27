@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: Build Setup
+    name: Build APK
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -25,16 +25,16 @@ jobs:
       run: chmod +x ./gradlew
     - name: Build with Gradle init
       run: ./gradlew init
-
-  apk:
-    name: APK Build
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Build debug APK
       run: ./gradlew clean assembleDebug --stacktrace
+
+  github:
+    name: Upload Github Artiface
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
     - name: Upload APK
       uses: actions/upload-artifact@v3
       with:
@@ -43,7 +43,7 @@ jobs:
         
   slack-msg:
     name: Send Build Msg to Slack
-    needs: apk
+    needs: build
     runs-on: ubuntu-latest
     steps:
     - name: Slack - Send Success Msg
@@ -68,7 +68,7 @@ jobs:
 
   slack-upload:
     name: Upload Debug APK to Slack
-    needs: apk
+    needs: build
     runs-on: ubuntu-latest
     steps:
     - name: Slack - Upload APK
