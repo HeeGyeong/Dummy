@@ -46,7 +46,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - name: Slack - Send Msg
+    - name: Slack - Send Success Msg
+      if: ${{ success() }}
       uses: 8398a7/action-slack@v3
       with:
         status: ${{ job.status }}
@@ -54,8 +55,17 @@ jobs:
         author_name: Heeg
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-      if: always()
-      
+
+    - name: Slack - Send Fail Msg
+      if: ${{ failure() }}
+      uses: 8398a7/action-slack@v3
+      with:
+        status: ${{ job.status }}
+        fields: workflow,job,commit,repo,author,took,ref
+        author_name: Heeg
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
   slack-upload:
     name: Upload Debug APK to Slack
     needs: apk
