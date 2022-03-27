@@ -29,17 +29,6 @@ jobs:
       run: ./gradlew build
     - name: Build debug APK
       run: ./gradlew clean assembleDebug --stacktrace
-
-  github:
-    name: Upload Github Artiface
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Upload APK
-      uses: actions/upload-artifact@v3
-      with:
-        name: apk-artifact
-        path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
         
   slack-msg:
     name: Send Build Msg to Slack
@@ -79,4 +68,15 @@ jobs:
         initial_comment: 'APK File Upload'
         file_type: 'apk'
         file_name: 'presentaion-debug.apk'
-        file_path: './presentaion/build/outputs/apk/debug/presentaion-debug.apk'
+        file_path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
+        
+  github:
+    name: Upload Github Artiface
+    needs: slack-upload
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload APK
+        uses: actions/upload-artifact@v3
+        with:
+          name: apk-artifact
+          path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
