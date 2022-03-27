@@ -25,14 +25,14 @@ jobs:
       run: chmod +x ./gradlew
     - name: Build with Gradle init
       run: ./gradlew init
-    - name: Build with Gradle
-      run: ./gradlew build
 
   apk:
     name: APK Build
     needs: build
     runs-on: ubuntu-latest
     steps:
+    - name: Build with Gradle
+      run: ./gradlew build
     - name: Build debug APK
       run: ./gradlew clean assembleDebug --stacktrace
     - name: Upload APK
