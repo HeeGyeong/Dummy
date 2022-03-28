@@ -98,12 +98,8 @@ jobs:
     steps:
       - name: Failure Event
         id: fail-event
-        continue-on-error: true
         run: |
           exit 1
-      - name: Failure Test
-        if: steps.fail-event.outcome == 'failure' && steps.fail-event.conclusion == 'failure'
-        run: echo 'Event Failure'
 
   fin_failure_call:
     name: Failure call Job
