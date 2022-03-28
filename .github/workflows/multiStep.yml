@@ -86,7 +86,7 @@ jobs:
 
   fin_call:
     name: Final call Job
-    needs: [test_call, slack-msg]
+    needs: [test_call, slack-success-msg]
     runs-on: ubuntu-latest
     steps:
       - name: Final Call
