@@ -12,6 +12,7 @@ jobs:
   build:
     name: Build APK
     runs-on: ubuntu-latest
+    environment: Deploy
     steps:
     - uses: actions/checkout@v2
     - name: set up JDK 11
