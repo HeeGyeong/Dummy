@@ -50,7 +50,7 @@ jobs:
   slack-success-msg:
     name: Send Build Success Msg to Slack
     needs: build
-    if: contains(needs.build.result, 'success')
+    if: needs.build.result == 'success'
     runs-on: ubuntu-latest
     steps:
     - name: Slack - Send Success Msg
@@ -65,7 +65,7 @@ jobs:
   slack-failure-msg:
     name: Send Build failure Msg to Slack
     needs: build
-    if: ${{ contains(needs.build.result, 'failure') }}
+    if: needs.build.result == 'failure'
     runs-on: ubuntu-latest
     steps:
       - name: Slack - Send Fail Msg
@@ -103,7 +103,7 @@ jobs:
   fin_failure_call:
     name: Final call Job
     needs: [test_failure_call]
-    if: contains(needs.test_failure_call.result, 'failure')
+    if: always() && needs.test_failure_call.result == 'failure'
     runs-on: ubuntu-latest
     steps:
       - name: Final Call
