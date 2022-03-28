@@ -1,0 +1,34 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  a:
+    if: true
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello A"
+    
+  b:
+    if: false
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello B"
+    
+  c:
+    needs: [a,b]
+    if: ${{ always() && contains(needs.a.result, 'success') && contains(needs.b.result, 'failure') }}
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello C"
+    
+  d:
+    needs: [a,b]
+    if: ${{ always() && contains(needs.a.result, 'success')}}
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello D"
