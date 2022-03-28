@@ -82,7 +82,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test Call
-        run: echo 'Test Call'
+        run: |
+          exit 0
 
   fin_call:
     name: Final call Job
