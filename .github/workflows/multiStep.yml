@@ -50,7 +50,7 @@ jobs:
   slack-success-msg:
     name: Send Build Success Msg to Slack
     needs: build
-    if: ${{ contains(needs.build.result, 'success') }}
+    if: contains(needs.build.result, 'success')
     runs-on: ubuntu-latest
     steps:
     - name: Slack - Send Success Msg
@@ -96,21 +96,14 @@ jobs:
     name: Test Job
     runs-on: ubuntu-latest
     steps:
-      - name: Slack - Upload APK
-        uses: MeilCli/slack-upload-file@v1.0.0
-        with:
-          #failuer Event
-          slack_token: ${{ secrets.SLACK_TOKEN2 }}
-          channels: ${{ secrets.SLACK_CHANNEL }}
-          initial_comment: 'APK File Upload'
-          file_type: 'apk'
-          file_name: 'presentaion-debug.apk'
-          file_path: './presentaion/build/outputs/apk/debug/presentaion-debug.apk'
+      - name: Failure Event
+        run: |
+          exit 1
 
   fin_failure_call:
     name: Final call Job
     needs: [test_failure_call]
-    if: ${{ !contains(needs.test_failure_call.result, 'success') }}
+    if: contains(needs.test_failure_call.result, 'failure')
     runs-on: ubuntu-latest
     steps:
       - name: Final Call
