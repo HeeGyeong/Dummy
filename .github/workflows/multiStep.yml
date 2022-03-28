@@ -104,7 +104,7 @@ jobs:
   fin_failure_call:
     name: Failure call Job
     needs: test_failure_call
-    if: needs.test_failure_call.result == 'failure'
+    if: always() && needs.test_failure_call.result == 'failure'
     runs-on: ubuntu-latest
     steps:
       - name: Final Call
