@@ -1,17 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.databinding:databinding-runtime:4.2.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d22da739c7ee1f5501e2cde3e21fec10/databinding-runtime-4.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d22da739c7ee1f5501e2cde3e21fec10/databinding-runtime-4.2.1/res" />
-      <root url="file://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-2/files-2.1/d22da739c7ee1f5501e2cde3e21fec10/databinding-runtime-4.2.1/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/071a24db406e64e94fc360dfbe2b04e3/transformed/databinding-runtime-4.2.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/071a24db406e64e94fc360dfbe2b04e3/transformed/databinding-runtime-4.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/071a24db406e64e94fc360dfbe2b04e3/transformed/databinding-runtime-4.2.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/071a24db406e64e94fc360dfbe2b04e3/transformed/databinding-runtime-4.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/071a24db406e64e94fc360dfbe2b04e3/transformed/databinding-runtime-4.2.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/071a24db406e64e94fc360dfbe2b04e3/transformed/databinding-runtime-4.2.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-runtime/4.2.1/7a16c39b6b3b0d9e0e243424809eaeec2467ac3a/databinding-runtime-4.2.1-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-runtime/4.2.1/7a16c39b6b3b0d9e0e243424809eaeec2467ac3a/databinding-runtime-4.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-runtime/4.2.1/7a16c39b6b3b0d9e0e243424809eaeec2467ac3a/databinding-runtime-4.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

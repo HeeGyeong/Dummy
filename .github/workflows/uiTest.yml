@@ -2,9 +2,9 @@ name: Android CI - UI Test
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, macos ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, macos ]
 
 jobs:
   test:
@@ -35,4 +35,4 @@ jobs:
           target: ${{ matrix.target }}
           arch: x86_64
           profile: Nexus 6
-          script: ./gradlew connectedCheck
+          script: ./gradlew connectedCheck --warning-mode all
