@@ -103,7 +103,7 @@ jobs:
 
   fin_failure_call:
     name: Failure call Job
-    needs: test_failure_call
+    needs: [test_failure_call, test_call]
     if: always() && needs.test_failure_call.result == 'failure' && needs.test_call.result == 'success'
     runs-on: ubuntu-latest
     steps:
