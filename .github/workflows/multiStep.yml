@@ -47,20 +47,13 @@ jobs:
         name: apk-artifact
         path: ./presentaion/build/outputs/apk/debug/presentaion-debug.apk
 
-  test_call:
-    name: Test Job
-    runs-on: ubuntu-latest
-    steps:
-      - name: Test Call
-        run: echo 'Test Call'
-
-  slack-msg:
-    name: Send Build Msg to Slack
+  slack-success-msg:
+    name: Send Build Success Msg to Slack
     needs: build
+    if: ${{ contains(needs.build.result, 'success') }}
     runs-on: ubuntu-latest
     steps:
     - name: Slack - Send Success Msg
-      if: ${{ success() }}
       uses: 8398a7/action-slack@v3
       with:
         status: ${{ job.status }}
@@ -69,19 +62,55 @@ jobs:
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-    - name: Slack - Send Fail Msg
-      if: ${{ failure() }}
-      uses: 8398a7/action-slack@v3
-      with:
-        status: ${{ job.status }}
-        fields: workflow,job,commit,repo,author,took,ref
-        author_name: Heeg
-      env:
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+  slack-failure-msg:
+    name: Send Build failure Msg to Slack
+    needs: build
+    if: ${{ contains(needs.build.result, 'failure') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack - Send Fail Msg
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          fields: workflow,job,commit,repo,author,took,ref
+          author_name: Heeg
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  test_call:
+    name: Test Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Call
+        run: echo 'Test Call'
 
   fin_call:
     name: Final call Job
     needs: [test_call, slack-msg]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Final Call
+        run: echo 'Final Call'
+
+  test_failure_call:
+    name: Test Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack - Upload APK
+        uses: MeilCli/slack-upload-file@v1.0.0
+        with:
+          #failuer Event
+          slack_token: ${{ secrets.SLACK_TOKEN2 }}
+          channels: ${{ secrets.SLACK_CHANNEL }}
+          initial_comment: 'APK File Upload'
+          file_type: 'apk'
+          file_name: 'presentaion-debug.apk'
+          file_path: './presentaion/build/outputs/apk/debug/presentaion-debug.apk'
+
+  fin_failure_call:
+    name: Final call Job
+    needs: [test_failure_call, fin_call]
+    if: ${{ contains(needs.test_failure_call.result, 'failure') }}
     runs-on: ubuntu-latest
     steps:
       - name: Final Call
