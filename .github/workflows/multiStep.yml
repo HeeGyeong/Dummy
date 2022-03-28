@@ -109,7 +109,7 @@ jobs:
 
   fin_failure_call:
     name: Final call Job
-    needs: [test_failure_call, fin_call]
+    needs: [test_failure_call]
     if: ${{ contains(needs.test_failure_call.result, 'failure') }}
     runs-on: ubuntu-latest
     steps:
