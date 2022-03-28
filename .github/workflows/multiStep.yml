@@ -98,6 +98,7 @@ jobs:
     steps:
       - name: Failure Event
         id: fail-event
+        continue-on-error: true
         run: |
           exit 1
       - name: Failure Test
@@ -107,7 +108,7 @@ jobs:
   fin_failure_call:
     name: Failure call Job
     needs: [test_failure_call, test_call]
-    if: needs.test_failure_call.result == 'failure' && needs.test_call.result == 'success'
+    if: ${{ (needs.test_failure_call.result == 'failure') && (needs.test_call.result == 'success') }}
     runs-on: ubuntu-latest
     steps:
       - name: Final Call
