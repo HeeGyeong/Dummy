@@ -93,7 +93,7 @@ jobs:
         run: echo 'Final Call'
 
   test_failure_call:
-    name: Test Job
+    name: Test Failure Job
     runs-on: ubuntu-latest
     steps:
       - name: Failure Event
@@ -101,9 +101,9 @@ jobs:
           exit 1
 
   fin_failure_call:
-    name: Final call Job
-    needs: [test_failure_call]
-    if: always() && needs.test_failure_call.result == 'failure'
+    name: Failure call Job
+    needs: [test_failure_call, test_call]
+    if: needs.test_failure_call.result == 'failure' && needs.test_call.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Final Call
