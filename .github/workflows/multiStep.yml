@@ -12,7 +12,7 @@ jobs:
   build:
     name: Build APK
     runs-on: ubuntu-latest
-    environment: production
+    #environment: production
     steps:
     - uses: actions/checkout@v2
     - name: set up JDK 11
@@ -110,7 +110,7 @@ jobs:
   fin_failure_call:
     name: Final call Job
     needs: [test_failure_call]
-    if: ${{ contains(needs.test_failure_call.result, 'failure') }}
+    if: ${{ !contains(needs.test_failure_call.result, 'success') }}
     runs-on: ubuntu-latest
     steps:
       - name: Final Call
