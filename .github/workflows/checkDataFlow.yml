@@ -32,3 +32,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Hello D"
+
+  e:
+    needs: [a,b]
+    if: ${{ always() && contains(needs.a.result, 'failure')}}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello E"
