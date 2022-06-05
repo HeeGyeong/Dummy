@@ -15,4 +15,4 @@ checkDataFlow.yml 파일은 Github Actions에서 보여지는 Graph를 확인하
 ## Blog
 GitHub Actions에 대한 설명은 다음 블로그에 작성해 두었습니다.
 
-[Tistory Blog - CI/CD](https://heegs.tistory.com/category/Android/CI%20CD, "CI/CD Example")
+[Tistory Blog - CI/CD](https://heegs.tistory.com/category/Android/CI%20CD "CI/CD Example")
