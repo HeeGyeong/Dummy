@@ -10,7 +10,7 @@ import com.example.cleanarchitecturestudy.view.search.MovieSearchActivity
 /**
  * MainActivity.
  *
- * 해당 프로젝트에서는 사실 필요성이 없지만, 테스트를 위해 이것 저것 추가해보기 위해 만들어 두었음.
+ * 해당 프로젝트에서는 사실 필요성이 없지만, 테스트를 위해 만들어 두었음.
  */
 class MainActivity: AppCompatActivity() {
 
